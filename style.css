@@ -1,50 +1,41 @@
-body {
-    background-color: cover;
+
+.heading
+{
+width: 100%;
+text-align: left;
+}
+.heading h3{
+    display: inline;
 }
 
-.heading {
-    font-size: 23px;
-    width: 100%;
-    margin: 0px;
+.heading button{
+    float: right;
+    border: 1px solid white;
 }
 
-.note {
-    font-size: 18px;
-    color: black;
+#start ,#status, #restart
+{
+font-size: 22px;
 }
 
-.div_speed {
-    float:left;
+.modal-dialog
+{
+    width: 70%;
 }
-
-.div_speed_img{
-    margin-top:20px;
-    width:200px;
-    border-radius:100px;
+.modal-body
+{
+    text-align: left;
+    font-size: 20px;
 }
-
-#speed{
-    font-size:23px;
-    margin:15px;
+h4
+{
+   background-color: grey;
+   color:white;
+   line-height: 2;
 }
-
-.div_volume {
-    float:right;
-}
-
-.div_volume_img{
-    margin-top:20px;
-    width:200px;
-    border-radius:100px;
-}
-
-#volume{
-    font-size:23px;
-    margin:15px;
-}
-
-
-canvas{
-    border: 5px solid white;
-    border-radius:20px;
-}
+canvas 
+  {
+      border:3px solid white;
+      border-radius: 20px;
+      box-shadow:  5px 5px 5px white;
+  }
